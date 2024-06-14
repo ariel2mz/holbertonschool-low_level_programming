@@ -13,5 +13,6 @@ char abecedario;
 
 for (abecedario = 'a'; abecedario <= 'z'; abecedario++)
 putchar(abecedario);
+putchar(' ');
 return (0);
 }
