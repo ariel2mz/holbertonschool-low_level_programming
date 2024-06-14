@@ -1,4 +1,6 @@
 #include <stdio.h>
+/* more headers goes there */
+
 /**
  * main - Entry point
  *
@@ -7,6 +9,8 @@
  */
 int main(void)
 {
-write(STDOUT_FILENO, "", strlen("hello world"));
-return 1;
+char abecedario;
+
+for (abecedario = 'a'; abecedario <= 'z'; abecedario++)
+putchar(abecedario);
 }
