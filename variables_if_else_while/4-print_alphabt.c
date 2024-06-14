@@ -12,9 +12,10 @@ int main(void)
 char abecedario;
 
 for (abecedario = 'a'; abecedario <= 'z'; abecedario++)
+{
+if ((abecedario != 'q') && (abecedario != 'e'))
 putchar(abecedario);
-for (abecedario = 'A'; abecedario <= 'Z'; abecedario++)
-putchar(abecedario);
+}
 putchar('\n');
 return (0);
 }
