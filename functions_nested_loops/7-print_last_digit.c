@@ -14,4 +14,5 @@ u = i % 10;
 if (i < 0)
 u = -u;
 _putchar(u + '0');
+return (u);
 }
