@@ -16,6 +16,7 @@ d = k / 10;
 r = k % 10;
 if (k > 9)
 {
+_putchar(' ');
 _putchar(d + '0');
 _putchar(r + '0');
 }
@@ -23,7 +24,7 @@ else if (k <= 9)
 {
 if (j != 0)
 {
-_putchar(' ');
+
 _putchar(' ');
 }
 _putchar(k + '0');
