@@ -18,8 +18,10 @@
                 for(m2 = 0; m1 <= 9; m1++){
                     _putchar(h1 + '0');
                     _putchar(h2 + '0');
+                    _putchar(':');
                     _putchar(m1 + '0');
                     _putchar(m2 + '0');
+                    _putchar(\n);
                 }
             }
         if (h1 == 2 && h2 == 4)
