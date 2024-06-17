@@ -5,7 +5,7 @@
  * _abs- Entry point
  *
  * Description: 'Escribe un texto'
- * @n: caracter a revisar
+ * @i: caracter a revisar
  * Return: int
  */
 int _abs(int i)
