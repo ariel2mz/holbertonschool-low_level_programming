@@ -13,5 +13,4 @@ char abecedario;
 for (abecedario = 'a'; abecedario <= 'z'; abecedario++)
 _putchar(abecedario);
 _putchar('\n');
-return (0);
 }
