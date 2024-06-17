@@ -10,15 +10,15 @@
  */
 int _isalpha(int c)
 {
-char r;
+int r;
 
-for (r = 'a'; r <= 'z'; r++)
+for (r = 65; r <= 90; r++)
 {
 if (r == c)
 {
 return (1);
 }
-for (r = 'A'; r <= 'Z'; r++)
+for (r = 97; r <= 122; r++)
 {
 if (r == c)
 {
