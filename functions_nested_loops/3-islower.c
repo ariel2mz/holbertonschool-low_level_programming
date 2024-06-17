@@ -2,7 +2,7 @@
 /* more headers goes there */
 
 /**
- * print_alphabet_x10 - Entry point
+ * _islower - Entry point
  *
  * Description: 'Escribe un texto'
  * @c: caracter a revisar
