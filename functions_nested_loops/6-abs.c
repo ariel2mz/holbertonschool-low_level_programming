@@ -8,6 +8,6 @@
  * @n: caracter a revisar
  * Return: int
  */
- int _abs(int){
+ int _abs(int i){
      return i < 0 ? -i : i;
  }
