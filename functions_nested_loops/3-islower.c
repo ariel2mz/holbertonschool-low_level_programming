@@ -7,7 +7,7 @@
  * Description: 'Escribe un texto'
  * Return: void
  */
-int _islower(int c);
+int _islower(int c)
 {
 char r;
 
