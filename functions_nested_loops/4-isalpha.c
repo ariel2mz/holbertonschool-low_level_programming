@@ -18,6 +18,7 @@ if (r == c)
 {
 return (1);
 }
+}
 for (r = 97; r <= 122; r++)
 {
 if (r == c)
@@ -25,6 +26,7 @@ if (r == c)
 return (1);
 }
 }
-}
 return (0);
 }
+
+
