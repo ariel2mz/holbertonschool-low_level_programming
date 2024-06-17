@@ -2,10 +2,10 @@
 /* more headers goes there */
 
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  *
  * Description: 'Escribe un texto'
- * Return: Always 0 (Success)
+ * Return: void
  */
 void print_alphabet(void)
 {
