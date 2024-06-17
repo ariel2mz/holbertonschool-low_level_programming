@@ -11,8 +11,6 @@ for (i = 0; i <= 9; i++)
 {
 for (j = 0; j <= 9; j++)
 {
-if (j != 0)
-_putchar(' ');
 k = i * j;
 d = k / 10;
 r = k % 10;
@@ -23,7 +21,11 @@ _putchar(r + '0');
 }
 else if (k <= 9)
 {
+if (j != 0)
+{
 _putchar(' ');
+_putchar(' ');
+}
 _putchar(k + '0');
 }
 if (j != 9)
