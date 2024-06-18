@@ -14,6 +14,9 @@ int i;
 int j;
 
 if (c <= 0)
+_putchar('\n');
+else
+{
 for (i = 0; i <= c; i++)
 {
 for (j = 0; j <= c; j++)
