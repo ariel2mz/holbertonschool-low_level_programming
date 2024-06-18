@@ -9,7 +9,7 @@
  * @c: caracter a revisar
  * Return: void
  */
-void fizz_buzz(void)
+void main(void)
 {
 int i;
 
