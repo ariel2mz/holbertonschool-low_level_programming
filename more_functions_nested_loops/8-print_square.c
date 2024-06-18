@@ -15,7 +15,7 @@ int j;
 
 for (i = 0; i <= c; i++)
 {
-for (j = 0; i <= c; i++)
+for (j = 0; j <= c; j++)
 _putchar('#');
 _putchar('\n');
 }
