@@ -21,6 +21,7 @@ printf(" ");
 else
 printf("#");
 }
+printf("\n");
 }
  
 }
