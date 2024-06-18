@@ -20,6 +20,7 @@ _putchar('9');
 _putchar('8');
 }
 }
+}
 else if(n > 98)
 {
 for (; n >= 98; n--)
