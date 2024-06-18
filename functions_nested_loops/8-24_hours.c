@@ -3,7 +3,6 @@
  * jack_bauer- Entry point
  *
  * Description: 'Escribe un texto'
- * @i: caracte
  * Return: int
  */
 void jack_bauer(void)
