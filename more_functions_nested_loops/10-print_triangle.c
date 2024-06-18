@@ -13,6 +13,8 @@ void print_triangle(int size){
 int i;
 int j;
 
+if(size == 0)
+printf("\n");
 for (i = 1; i <= size; i++)
 {
 for (j = size; j >= 0; j--)
@@ -24,5 +26,4 @@ printf("#");
 }
 printf("\n");
 }
- 
 }
