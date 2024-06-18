@@ -24,6 +24,6 @@ _putchar(' ');
 else
 _putchar('#');
 }
-printf('\n');
+_putchar('\n');
 }
 }
