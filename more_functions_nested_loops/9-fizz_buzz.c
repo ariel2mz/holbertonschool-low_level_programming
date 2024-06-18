@@ -3,10 +3,9 @@
 /* more headers goes there */
 
 /**
- * fizz_buzz - Entry point
+ * main - Entry point
  *
  * Description: 'Escribe un texto'
- * @c: caracter a revisar
  * Return: void
  */
 int main(void)
