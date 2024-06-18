@@ -22,6 +22,7 @@ for (; n > 98; n--)
 printf("%d, ", n);
 }
 }
-printf("98");
+_putchar('9');
+_putchar('8');
 _putchar('\n');
 }
