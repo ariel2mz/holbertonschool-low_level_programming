@@ -2,13 +2,13 @@
 /* more headers goes there */
 
 /**
- * _isdigit - Entry point
+ * print_numbers - Entry point
  *
  * Description: 'Escribe un texto'
  * @c: caracter a revisar
  * Return: void
  */
-int _isdigit(int c)
+void print_numbers(void)
 {
 int i;
 
