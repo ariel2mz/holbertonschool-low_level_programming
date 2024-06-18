@@ -9,7 +9,7 @@
  * @c: caracter a revisar
  * Return: void
  */
-void main(void)
+int main(void)
 {
 int i;
 
@@ -27,4 +27,5 @@ printf("Buzz ");
 else
 printf("%d ", i);
 }
+return (0);
 }
