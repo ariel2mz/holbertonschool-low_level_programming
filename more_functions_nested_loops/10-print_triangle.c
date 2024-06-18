@@ -6,8 +6,7 @@
  * print_triangle - Entry point
  *
  * Description: 'Escribe un texto'
- * @i: caracter a revisar
- * @j: aaa
+ * @size: a
  * Return: void
  */
 void print_triangle(int size)
