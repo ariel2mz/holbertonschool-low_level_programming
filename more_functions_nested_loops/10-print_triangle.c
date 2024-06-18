@@ -14,16 +14,16 @@ int i;
 int j;
 
 if(size == 0)
-printf("\n");
+_putchar('\n');
 for (i = 1; i <= size; i++)
 {
 for (j = size; j >= 0; j--)
 {
 if(j < i)
-printf(" ");
+_putchar(' ');
 else
-printf("#");
+_putchar('#');
 }
-printf("\n");
+printf('\n');
 }
 }
