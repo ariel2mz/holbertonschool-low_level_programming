@@ -18,7 +18,7 @@ if(size <= 0)
 _putchar('\n');
 for (i = 1; i <= size; i++)
 {
-for (j = size; j >= 0; j--)
+for (j = size - 1; j >= 0; j--)
 {
 if(j < i)
 _putchar('#');
