@@ -23,5 +23,6 @@ for (j = 0; j <= c; j++)
 _putchar('#');
 _putchar('\n');
 }
+}
 return (0);
 }
