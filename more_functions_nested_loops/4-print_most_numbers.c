@@ -14,9 +14,7 @@ int i;
 for (i = '0'; i <= '9'; i++)
 {
 if (i != 2)
-{
 _putchar(i);
-}
 }
 _putchar('\n');
 }
