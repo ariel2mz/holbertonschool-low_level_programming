@@ -5,7 +5,6 @@
  * print_numbers - Entry point
  *
  * Description: 'Escribe un texto'
- * @c: caracter a revisar
  * Return: void
  */
 void print_numbers(void)
