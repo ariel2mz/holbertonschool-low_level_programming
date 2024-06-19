@@ -24,7 +24,8 @@ while (*aux2 != *aux)
 {
 aux2--;
 *s = *aux2;
-s++
+s++;
 }
 _putchar('\n');
 }
+
