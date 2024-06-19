@@ -29,7 +29,7 @@ aux2++;
 }
 
  aux2--;
- for (i = 0; i <= (largo/2); i++)
+ for (i = 0; i <= ((largo-1) /2); i++)
 {
 letra = *aux2;
  *aux2 = *s;
