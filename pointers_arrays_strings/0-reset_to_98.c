@@ -5,7 +5,7 @@
 /**
  * reset_to_98 - Entry point
  *
- * @n - aaa
+ * @n: aaa
  * Description: 'Escribe un texto'
  * Return: void
  */
