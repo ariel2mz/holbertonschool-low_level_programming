@@ -21,7 +21,7 @@ s++;
 while (*s != *aux)
 {
 s--;
-_putchar(*str);
+_putchar(*s);
 }
 _putchar('\n');
 }
