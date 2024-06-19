@@ -11,21 +11,20 @@
  */
 void rev_string(char *s)
 {
+  char pletra;
 char *aux2;
 char letra;
 int i, j = 0;
-
+ 
+ pletra = *s;
 aux2 = s;
 while (*aux2 != '\0')
 {
 aux2++;
 }
-i = _strlen(s);
- while (j <= (i/2))
+ while (*aux2 != pletra)
 {
-  j++;
-letra = *aux2; 
-*aux2 = *s; 
+letra = *aux2;  
 *s = letra;
 
  aux2--;
