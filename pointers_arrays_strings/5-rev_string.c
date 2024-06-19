@@ -13,6 +13,7 @@ void rev_string(char *s)
 {
 char aux;
 char *aux2;
+char letra;
 
 aux = *s;
 aux2 = s;
@@ -25,8 +26,8 @@ while (*aux2 != aux)
 {
 
 aux2--;
- _putchar(*aux2);
- &s = *aux2;
+ letra = *aux2;
+ *s = letra;
  s++;
   _putchar(*s);
 }
