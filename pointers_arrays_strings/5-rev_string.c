@@ -21,15 +21,13 @@ while (*aux2 != '\0')
 {
 aux2++;
 }
- _putchar(aux);
+
 while (*aux2 != aux)
 {
 
 aux2--;
  letra = *aux2;
- *s = letra;
- s++;
-  _putchar(*s);
+ _putchar(letra);
 }
 _putchar('\n');
 }
