@@ -9,7 +9,7 @@
  * Description: 'Escribe un texto'
  * Return: void
  */
-void _puts(char *s)
+void print_rev(char *s)
 {
 char *aux;
 
