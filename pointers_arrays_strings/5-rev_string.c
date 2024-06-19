@@ -14,7 +14,6 @@ void rev_string(char *s)
   char pletra;
 char *aux2;
 char letra;
-int i, j = 0;
  
  pletra = *s;
 aux2 = s;
