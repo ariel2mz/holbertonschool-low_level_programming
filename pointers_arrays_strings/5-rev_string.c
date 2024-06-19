@@ -38,6 +38,5 @@ letra = *aux2;
  aux2--;
  s++;
 }
-_putchar('\n');
 }
 
