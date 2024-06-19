@@ -22,6 +22,7 @@ aux2++;
 }
 while (*aux2 != *aux)
 {
+  _putchar('X');
 aux2--;
 *s = *aux2;
 s++;
