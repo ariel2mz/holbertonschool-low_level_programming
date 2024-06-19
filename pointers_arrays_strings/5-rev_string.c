@@ -3,13 +3,13 @@
 /* more headers goes there */
 
 /**
- * print_rev - Entry point
+ *rev_string - Entry point
  *
  * @s: aaa
  * Description: 'Escribe un texto'
  * Return: void
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 char *aux;
 char *aux2;
