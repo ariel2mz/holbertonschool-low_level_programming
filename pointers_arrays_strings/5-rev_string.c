@@ -11,15 +11,13 @@
  */
 void rev_string(char *s)
 {
-  char pletra,
+  char pletra;
 char *aux2;
 char letra;
 const char *p;
  int largo;
  int i;
  
-if (s == NULL)
-return (0);
 p = s;
 while (*p != '\0')
 p++;
