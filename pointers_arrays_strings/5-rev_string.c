@@ -26,6 +26,7 @@ while (*aux2 != aux)
 
 aux2--;
  _putchar(*aux2);
+ &s = *aux2;
  s++;
   _putchar(*s);
 }
