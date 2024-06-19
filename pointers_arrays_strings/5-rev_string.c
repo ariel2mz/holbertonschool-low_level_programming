@@ -22,7 +22,7 @@ while (*aux2 != '\0')
 aux2++;
 }
 aux = *aux2;
-i = _strlen(*s);
+i = _strlen(s);
  while (j <= (i\2))
 {
   j++;
