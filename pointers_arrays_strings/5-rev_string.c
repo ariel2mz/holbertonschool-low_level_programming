@@ -25,10 +25,10 @@ while (*s != aux)
 {
 letra = *aux2; 
 *aux2 = *s; 
-*s = ch;
+*s = letra;
 
-aux2--
-s++
+ aux2--;
+ s++;
 }
 _putchar('\n');
 }
