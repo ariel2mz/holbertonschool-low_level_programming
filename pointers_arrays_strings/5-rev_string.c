@@ -11,7 +11,6 @@
  */
 void rev_string(char *s)
 {
-  char pletra;
 char *aux2;
 char letra;
 const char *p;
