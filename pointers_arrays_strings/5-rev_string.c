@@ -11,16 +11,16 @@
  */
 void rev_string(char *s)
 {
-char *aux;
+char aux;
 char *aux2;
 
-aux = s;
-*aux2 = *s;
+aux = *s;
+aux2 = s;
 while (*aux2 != '\0')
 {
 aux2++;
 }
-while (*aux2 != *aux)
+while (*aux2 != aux)
 {
   _putchar('X');
 aux2--;
