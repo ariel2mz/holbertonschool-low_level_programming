@@ -15,19 +15,20 @@ char aux;
 char *aux2;
 char letra;
 
-aux = *s;
 aux2 = s;
 while (*aux2 != '\0')
 {
 aux2++;
 }
-
-while (*aux2 != aux)
+ aux = *aux2;
+while (*s != aux)
 {
+letra = *aux2; 
+*aux2 = *s; 
+*s = ch;
 
-aux2--;
- letra = *aux2;
- _putchar(letra);
+aux2--
+s++
 }
 _putchar('\n');
 }
