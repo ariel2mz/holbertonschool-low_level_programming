@@ -20,6 +20,7 @@ while (*aux2 != '\0')
 {
 aux2++;
 }
+ _putchar(aux);
 while (*aux2 != aux)
 {
   _putchar('X');
