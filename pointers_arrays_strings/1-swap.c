@@ -10,10 +10,11 @@
  * Description: 'Escribe un texto'
  * Return: void
  */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 int *aux = *a;
  
 *a = *b;
 *b = *aux;
 }
+
