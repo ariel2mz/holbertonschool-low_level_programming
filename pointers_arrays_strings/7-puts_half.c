@@ -7,11 +7,8 @@
  *
  * @s: aaa
  * Description: 'Escribe un texto'
- * Return: void
+ * Return: int
  */
-
-
-
 int _strlen(char *s)
 {
 const char *p;
