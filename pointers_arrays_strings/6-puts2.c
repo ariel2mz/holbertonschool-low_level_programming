@@ -17,7 +17,7 @@ int i;
 while (*str != '\0')
 {
 i++;
-if((i / 2) == 1)
+if((i % 2) == 1)
 _putchar(*str);
 str++;
 }
