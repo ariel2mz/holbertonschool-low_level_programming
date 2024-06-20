@@ -41,7 +41,7 @@ while (*s != '\0')
 s++;
 }
 s--;
-printf("%c\n",s*);
+printf("%c\n",*s);
 for (; l > 0; l--)
 {
 num = num + ((*s - '0') * i);
