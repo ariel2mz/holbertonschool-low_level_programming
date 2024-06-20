@@ -9,6 +9,14 @@
  * Description: 'Escribe un texto'
  * Return: void
  */
+/**
+ * _strlen - Entry point
+ *
+ * @s: aaa
+ * Description: 'Escribe un texto'
+ * Return: void
+ */
+
 
 
 int _strlen(char *s)
