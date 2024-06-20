@@ -36,14 +36,12 @@ int num;
 int l;
 int aux;
 
-aux = *s - '0';
 l = _strlen(s);
-printf("%d", aux);
 while (*s != '\0')
 {
 s++;
 }
-for (; l <= 0; l--)
+for (; l < 0; l--)
 {
 num = ((*s - '0') * i);
 s--;
