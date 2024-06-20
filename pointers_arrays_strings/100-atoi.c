@@ -34,9 +34,11 @@ int _atoi(char *s)
 int i = 1;
 int num;
 int l;
+int aux;
 
+aux = *s - '0';
 l = _strlen(s);
-printf(*s - '0');
+printf("%d", aux);
 while (*s != '\0')
 {
 s++;
