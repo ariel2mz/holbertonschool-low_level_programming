@@ -12,10 +12,14 @@
 void puts2(char *str)
 {
 int i = 0;
+int l;
 
+l = _strlen(*str);
+if ((l % 2) != 0)
+l--
 while (*str != '\0')
 {
-if ((i % 2) == 0)
+if (i > (l / 2))
 _putchar(*str);
 i++;
 str++;
