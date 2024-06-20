@@ -2,14 +2,7 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/**
- * puts_half - Entry point
- *
- * @str: aaa
- * Description: 'Escribe un texto'
- * Return: void
- */
-/**
+/*
  * _strlen - Entry point
  *
  * @s: aaa
@@ -31,7 +24,13 @@ p++;
 return (p - s);
 }
 
-
+/**
+ * puts_half - Entry point
+ *
+ * @str: aaa
+ * Description: 'Escribe un texto'
+ * Return: void
+ */
 void puts_half(char *str)
 {
 int i = 0;
