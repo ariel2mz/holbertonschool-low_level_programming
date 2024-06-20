@@ -43,7 +43,7 @@ s++;
 s--;
 for (; l >= 0; l--)
 {
-if (*s == '-')
+if (*s == '-' || *s == '+')
 {
 num = -num;
 break;
@@ -53,6 +53,9 @@ s--;
 i = i * 10;
 l--;
 }
+if (*s == '-')
+num = -num;
+
 
 return (num);
 }
