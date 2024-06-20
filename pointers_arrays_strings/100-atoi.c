@@ -33,9 +33,9 @@ int _atoi(char *s)
 {
 int i = 1;
 int num;
-/* int l; */
+/* int l; 
 
-l = _strlen(s);
+l = _strlen(s);*/
 while (*s != '\0')
 {
 s++;
