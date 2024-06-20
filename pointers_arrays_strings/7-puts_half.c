@@ -30,7 +30,7 @@ int i = 0;
 int l;
 
 l = _strlen(str);
-if ((l % 2) != 0)
+if ((l % 2) != 1)
 l--;
 while (*str != '\0')
 {
