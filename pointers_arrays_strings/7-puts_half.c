@@ -19,7 +19,7 @@ if (str == NULL)
 p = str;
 while (*p != '\0')
 p++;
-l = p - s;
+l = p - str;
 
 
 
