@@ -46,6 +46,7 @@ for (; l >= 0; l--)
 if (*s == '-')
 {
 num = -num;
+printf("entrò");
 break;
 }
 num = num + ((*s - '0') * i);
