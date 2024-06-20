@@ -13,8 +13,20 @@ void puts_half(char *str)
 {
 int i = 0;
 int l;
+const char *p;
 
-l = _strlen(str);
+if (str == NULL)
+return (0);
+p = str;
+while (*p != '\0')
+p++;
+l = p - s;
+
+
+
+
+
+
 if ((l % 2) != 0)
 l--;
 while (*str != '\0')
