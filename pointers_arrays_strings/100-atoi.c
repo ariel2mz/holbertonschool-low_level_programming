@@ -35,7 +35,7 @@ int i = 1;
 int num;
 int l;
 
-l = _strlen(*s);
+l = _strlen(s);
 while (*s != '\0')
 {
 s++;
@@ -46,4 +46,5 @@ num = ((*s - '0') * i);
 s--;
 i = i * 10;
 }
+return (num);
 }
