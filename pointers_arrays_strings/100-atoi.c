@@ -43,6 +43,11 @@ s++;
 s--;
 for (; l >= 0; l--)
 {
+if (*s == '-')
+{
+num = -num;
+break;
+}
 num = num + ((*s - '0') * i);
 s--;
 i = i * 10;
