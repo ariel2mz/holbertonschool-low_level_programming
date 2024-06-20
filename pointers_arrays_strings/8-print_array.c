@@ -10,7 +10,7 @@
  * Description: 'Escribe un texto'
  * Return: int
  */
-int print_array(int *a, int n)
+void print_array(int *a, int n)
 {
 int i;
 
