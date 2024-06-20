@@ -16,7 +16,7 @@ int l;
 
 l = _strlen(str);
 if ((l % 2) != 0)
-l--
+l--;
 while (*str != '\0')
 {
 if (i > (l / 2))
