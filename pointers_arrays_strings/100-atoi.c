@@ -32,7 +32,7 @@ return (p - s);
 int _atoi(char *s)
 {
 int i = 1;
-int num;
+int num = 0;
  int l; 
 
 l = _strlen(s);
