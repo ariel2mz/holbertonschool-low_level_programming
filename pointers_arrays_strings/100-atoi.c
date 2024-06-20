@@ -45,6 +45,7 @@ for (; l < 0; l--)
 num = ((*s - '0') * i);
 s--;
 i = i * 10;
+l--;
 }
 return (num);
 }
