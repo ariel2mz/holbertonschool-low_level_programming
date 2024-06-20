@@ -2,7 +2,7 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/*
+/**
  * _strlen - Entry point
  *
  * @s: aaa
