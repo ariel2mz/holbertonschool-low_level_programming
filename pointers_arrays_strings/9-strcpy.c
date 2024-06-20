@@ -33,9 +33,10 @@ return (p - s);
 char *_strcpy(char *dest, char *src)
 {
 int l;
+int i;
 
 l = _strlen(dest);
 for (i = 0; i <= l;i++)
 dest[i] = src[i];    
-return *dest;
+return dest;
 }
