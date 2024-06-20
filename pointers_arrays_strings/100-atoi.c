@@ -36,6 +36,7 @@ int num;
 int l;
 
 l = _strlen(s);
+printf(*s - '0');
 while (*s != '\0')
 {
 s++;
