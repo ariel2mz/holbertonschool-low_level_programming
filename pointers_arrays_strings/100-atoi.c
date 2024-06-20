@@ -43,13 +43,13 @@ s++;
 s--;
 for (; l >= 0; l--)
 {
+num = num + ((*s - '0') * i);
+s--;
 if (*s == '-' || *s == '+')
 {
 num = -num;
 break;
 }
-num = num + ((*s - '0') * i);
-s--;
 i = i * 10;
 l--;
 }
