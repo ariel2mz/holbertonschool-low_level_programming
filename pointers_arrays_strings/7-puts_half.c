@@ -31,7 +31,7 @@ l--;
 while (*str != '\0')
 {
 if (i > (l / 2))
-_putchar(*str);
+_putchar(i + '0');
 i++;
 str++;
 }
