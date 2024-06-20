@@ -16,7 +16,6 @@ int l;
 const char *p;
 
 if (str == NULL)
-return (0);
 p = str;
 while (*p != '\0')
 p++;
