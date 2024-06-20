@@ -42,7 +42,7 @@ s++;
 }
 s--;
 num = num + ((*s - '0') * i);
-printf("%d\n\n", num)
+printf("%d\n\n", num);a
 for (; l > 0; l--)
 {
 num = num + ((*s - '0') * i);
