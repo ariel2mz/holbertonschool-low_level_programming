@@ -14,8 +14,8 @@ char *cap_string(char *s)
 int l, i;
 const char *p;
 
-if(s[0] >= 65 && s[0] <= 90)
-s[0] = s[0] + 32;
+if(s[0] >= 97 && s[0] <= 122)
+s[0] = s[0] - 32;
 
 p = s;
 while (*p != '\0')
