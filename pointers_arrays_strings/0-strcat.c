@@ -16,7 +16,7 @@ char *a = dest;
 
 while (*a != '\0')
 {
-a++;   
+a++;
 }
 while (*src != '\0')
 {
