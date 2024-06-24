@@ -18,6 +18,7 @@ p++;
 l = p - s;
 for (i = 0; i <= l; i++)
 {
+
     if (*s == '-')
     {
         neg = -neg;
@@ -27,8 +28,13 @@ for (i = 0; i <= l; i++)
             num = num * 10;
 
         num = num + (*s - '0');
+        s++;
+        if (*s == ' ')
+            break;
+        s--;
     }
     s++;
+    
 }
 if (neg == -1)
 {
