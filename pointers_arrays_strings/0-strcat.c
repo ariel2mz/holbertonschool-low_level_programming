@@ -3,9 +3,10 @@
 /* more headers goes there */
 
 /**
- * reset_to_98 - Entry point
+ * _strcat - Entry point
  *
- * @n: aaa
+ * @dest: aaa
+ * @src: aaa
  * Description: 'Escribe un texto'
  * Return: void
  */
@@ -26,4 +27,3 @@ a++;
 *a = *src;
 return (dest);
 }
-
