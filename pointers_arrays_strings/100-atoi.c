@@ -18,19 +18,16 @@ p++;
 l = p - s;
 for (i = 0; i <= l; i++)
 {
-printf("entro al for");
     if (*s == '-')
     {
-    printf("entro al if de menos");
      s++;
-     if (*s <= 48 && *s >= 58)
+     if (*s >= 48 && *s <= 58)
      {
         neg = 1;
      }
     s--;
     }
-    if (*s <= 48 && *s >= 58){
-    printf("entro al if de numero");
+    if (*s >= 48 && *s <= 58){
         if(num != 0)
             num = num * 10;
 
