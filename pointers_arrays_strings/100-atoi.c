@@ -1,27 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-/* more headers goes there */
-
-/**
- * _strlen - Entry point
- *
- * @s: aaa
- * Description: 'Escribe un texto'
- * Return: void
- */
-int _strlen(char *s)
-{
-const char *p;
-
-if (s == NULL)
-return (0);
-p = s;
-while (*p != '\0')
-p++;
-return (p - s);
-}
-
-
 /**
  * _atoi - Entry point
  *
@@ -31,38 +9,30 @@ return (p - s);
  */
 int _atoi(char *s)
 {
-int i = 1;
-int num = 0;
- int l; 
+const char *p;
+int l, i;
+bool neg;
+p = s;
+while (*p != '\0')
+p++;
+l = p - s;
+for (i = 0; i < l; i++)
+{
+    if (s == '-')
+    {
+     s++
+     if (s <= 48 && s >= 58)
+     {
+        neg = TRUE;
+     }
+    s--
+    }
+    if (s <= 48 && s >= 58){
+        if(num != 0)
+            num = num * 10;
+        num = num + (s - '0');
+    }
+    s++
+}
 
-l = _strlen(s);
-while (*s != '\0')
-{
-s++;
-}
-s--;
-for (; l >= 0; l--)
-{
-if ((*s - '0' ) < 10 && (*s - '0' ) >= 0 )
-{
-num = num + ((*s - '0') * i);
-s--;
-if (*s == '-' || *s == '+')
-{
-break;
-}
-i = i * 10;
-l--;
-}
-else
-{
-s--;
-l--;
-}
-}
-if (*s == '-')
-num = -num;
-
-
-return (num);
 }
