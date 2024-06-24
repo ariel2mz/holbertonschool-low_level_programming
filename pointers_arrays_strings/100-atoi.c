@@ -10,7 +10,7 @@
 int _atoi(char *s)
 {
 const char *p;
-int l, i, num = 0, neg = 0;
+int l, i, num = 0, neg = 1;
 
 p = s;
 while (*p != '\0')
@@ -30,7 +30,7 @@ for (i = 0; i <= l; i++)
     }
     s++;
 }
-if (neg == 1)
+if (neg == -1)
 {
  num = -num;
 }
