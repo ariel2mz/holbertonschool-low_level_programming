@@ -10,8 +10,8 @@
 int _atoi(char *s)
 {
 const char *p;
-int l, i, num = 0;
-bool neg;
+int l, i, num = 0, neg = 0;
+
 p = s;
 while (*p != '\0')
 p++;
@@ -23,18 +23,18 @@ for (i = 0; i < l; i++)
      s++
      if (s* <= 48 && s* >= 58)
      {
-        neg = TRUE;
+        neg = 1;
      }
-    s--
+    s--;
     }
     if (s* <= 48 && s* >= 58){
         if(num != 0)
             num = num * 10;
         num = num + (s - '0');
     }
-    s++
+    s++;
 }
-if (neg)
+if (neg == 1)
 {
  num = -num;
 }
