@@ -15,11 +15,10 @@ while (*dest != '\0')
     dest++;
 while (*src != '\0')
 {
-    printf("segundo while\n");
     *dest = *src;
     src++;
     dest++;
 }
-
+*dest = *src;
 return (dest);
 }
