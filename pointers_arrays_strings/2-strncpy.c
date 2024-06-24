@@ -15,10 +15,20 @@ char *_strncpy(char *dest, char *src, int n)
 {
 int i;
 char *a = dest;
+int l;
+const char *p;
+
+p = s;
+while (*p != '\0')
+p++;
+l = p - s;
+}
+
 for (i = 0; i < n; i++)
 {
-if (*src == '\0')
-*src = NULL;
+if (i > l)
+*a = "";
+else
 *a = *src;
 a++;
 src++;
