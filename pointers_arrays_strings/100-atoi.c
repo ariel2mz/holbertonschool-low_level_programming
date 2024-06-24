@@ -27,6 +27,9 @@ for (i = 0; i <= l; i++)
         if(num != 0)
             num = num * 10;
 
+        if (neg == -1)
+        num = num - (*s - '0');
+        else
         num = num + (*s - '0');
         s++;
         if (*s == ' ')
@@ -35,10 +38,6 @@ for (i = 0; i <= l; i++)
     }
     s++;
     
-}
-if (neg == -1)
-{
- num = -num;
 }
 return (num);
 }
