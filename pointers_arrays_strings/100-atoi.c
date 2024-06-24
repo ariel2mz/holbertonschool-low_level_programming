@@ -35,7 +35,7 @@ if (*s == ' ')
 break;
 s--;
 }
-s++;    
+s++;
 }
 return (num);
 }
