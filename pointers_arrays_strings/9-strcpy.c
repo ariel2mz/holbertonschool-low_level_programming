@@ -36,7 +36,7 @@ int l;
 int i;
 
 l = _strlen(dest);
-for (i = 0; i <= l;i++)
-dest[i] = src[i];    
-return dest;
+for (i = 0; i <= l; i++)
+dest[i] = src[i]; 
+return (dest);
 }
