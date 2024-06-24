@@ -18,16 +18,16 @@ char *a = dest;
 int l;
 const char *p;
 
-p = s;
+p = src;
 while (*p != '\0')
 p++;
-l = p - s;
+l = p - src;
 
 
 for (i = 0; i < n; i++)
 {
 if (i > l)
-*a = "";
+*a = '';
 else
 *a = *src;
 a++;
