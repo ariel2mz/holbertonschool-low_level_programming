@@ -3,20 +3,23 @@
 /* more headers goes there */
 
 /**
- * _strlen - Entry point
+ * _strncpy - Entry point
  *
- * @s: aaa
+ * @dest: aaa
+ * @src: aaa
+ * @n: aaa
  * Description: 'Escribe un texto'
  * Return: int
  */
 char *_strncpy(char *dest, char *src, int n)
 {
 int i;
-
+char *a = dest;
 for (i = 0; i < n; i++)
 {
-*dest = *src;
-dest++;
+*a = *src;
+a++;
 src++;
 }
+return (dest);
 }
