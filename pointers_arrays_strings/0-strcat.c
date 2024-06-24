@@ -15,16 +15,15 @@ char *a = dest;
 
 while (*a != '\0')
 {
-    a++;
-    
+a++;   
 }
-
 while (*src != '\0')
 {
-    *a = *src;
-    src++;
-    a++;
+*a = *src;
+src++;
+a++;
 }
 *a = *src;
 return (dest);
 }
+
