@@ -16,7 +16,7 @@ p = s;
 while (*p != '\0')
 p++;
 l = p - s;
-for (i = 0; i < l; i++)
+for (i = 0; i <= l; i++)
 {
     if (*s == '-')
     {
@@ -30,6 +30,7 @@ for (i = 0; i < l; i++)
     if (*s <= 48 && *s >= 58){
         if(num != 0)
             num = num * 10;
+
         num = num + (*s - '0');
     }
     s++;
