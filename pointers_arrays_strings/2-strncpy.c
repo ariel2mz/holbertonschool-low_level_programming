@@ -27,7 +27,7 @@ l = p - src;
 for (i = 0; i < n; i++)
 {
 if (i > l)
-*a = '';
+*a = '\0';
 else
 *a = *src;
 a++;
