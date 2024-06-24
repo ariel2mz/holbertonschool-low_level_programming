@@ -3,11 +3,10 @@
 /* more headers goes there */
 
 /**
- * _strncpy - Entry point
+ * _strcmp - Entry point
  *
- * @dest: aaa
- * @src: aaa
- * @n: aaa
+ * @s1: aaa
+ * @s2: aaa
  * Description: 'Escribe un texto'
  * Return: int
  */
