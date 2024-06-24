@@ -3,7 +3,7 @@
 /* more headers goes there */
 
 /**
- * string_toupper - Entry point
+ * cap_string - Entry point
  *
  * @s: aaa
  * Description: 'Escribe un texto'
@@ -14,7 +14,7 @@ char *cap_string(char *s)
 int l, i;
 const char *p;
 
-if(s[0] >= 97 && s[0] <= 122)
+if (s[0] >= 97 && s[0] <= 122)
 s[0] = s[0] - 32;
 
 p = s;
