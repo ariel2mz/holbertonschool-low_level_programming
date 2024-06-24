@@ -34,5 +34,8 @@ for (i = 0; i < l; i++)
     }
     s++
 }
-
+if (neg)
+{
+ num = -num;
+}
 }
