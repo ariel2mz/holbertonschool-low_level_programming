@@ -19,7 +19,7 @@ while (j > i)
 aux = a[i];
 a[i] = a[j];
 a[j] = aux;
-i--;
+i++;
 j--;
 }
 }
