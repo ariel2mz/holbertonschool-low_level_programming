@@ -16,7 +16,7 @@ int i = 0, j = n - 1;
 while (j > i)
 {
 a[i] = a[j];
-i--
-j--
+i--;
+j--;
 }
 }
