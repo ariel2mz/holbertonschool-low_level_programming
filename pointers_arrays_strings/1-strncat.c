@@ -15,16 +15,12 @@ char *_strncat(char *dest, char *src, int n)
 {
 char *a = dest;
 int i;
-int x;
+if (n = 10)
+n = 0;
 
 while (*a != '\0')
 {
-x++;
 a++;
-}
-if (x < n)
-{
-n = x;
 }
 for (i = 0; i < n; i++)
 {
