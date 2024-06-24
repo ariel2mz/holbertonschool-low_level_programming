@@ -17,6 +17,8 @@ int i;
 char *a = dest;
 for (i = 0; i < n; i++)
 {
+if (*src == '\0')
+*src = NULL;
 *a = *src;
 a++;
 src++;
