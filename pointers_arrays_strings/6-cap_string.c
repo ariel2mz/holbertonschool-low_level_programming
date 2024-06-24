@@ -11,7 +11,7 @@
  */
 char *cap_string(char *s)
 {
-int l;
+int l, i;
 const char *p;
 
 if(s[0] >= 65 && s[0] <= 90)
