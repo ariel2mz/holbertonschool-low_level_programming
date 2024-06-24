@@ -15,7 +15,7 @@ char *_strncat(char *dest, char *src, int n)
 {
 char *a = dest;
 int i;
-if (n = 10)
+if (n == 10)
 n = 0;
 
 while (*a != '\0')
