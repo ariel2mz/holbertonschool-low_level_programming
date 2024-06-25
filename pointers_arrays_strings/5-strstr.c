@@ -29,7 +29,7 @@ aux++;
 aux2++;
 }
 if (*aux2 == '\0')
-return (haystack);    
+return (haystack);
 }
 haystack++;
 }
