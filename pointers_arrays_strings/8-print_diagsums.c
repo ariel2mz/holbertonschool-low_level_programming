@@ -22,7 +22,7 @@ if (j == i)
 {
 jaux = j * size;
 iaux = i + jaux;
-diagonal1 = diagonal1 + a[iaux];	  
+ diagonal1 = diagonal1 + a[iaux];
 }
 if ((j + i + 1) == size)
 {
