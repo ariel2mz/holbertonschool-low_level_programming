@@ -17,13 +17,13 @@ char *aux2;
 
 if (*needle == '\0')
 return (haystack);
-while(*haystack != '\0')
+while (*haystack != '\0')
 {
 if (*haystack == needle[0])
 {
 aux = haystack;
 aux2 = needle;
-while((*aux == *aux2) && (*aux2 != '\0'))
+while ((*aux == *aux2)&&(*aux2 != '\0'))
 {
 aux++;
 aux2++;
@@ -33,5 +33,5 @@ return (haystack);
 }
 haystack++;
 }
-return('\0');
+return ('\0');
 }
