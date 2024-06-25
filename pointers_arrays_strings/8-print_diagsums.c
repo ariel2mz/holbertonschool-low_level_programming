@@ -22,7 +22,7 @@ if (j == i)
 {
 jaux = j * size;
 iaux = i + jaux;
- diagonal1 = diagonal1 + a[iaux];
+diagonal1 = diagonal1 + a[iaux];
 }
 if ((j + i + 1) == size)
 {
@@ -31,7 +31,7 @@ iaux = i + jaux;
 diagonal2 = diagonal2 + a[iaux];
 }
 }
-printf("%d, ",diagonal1);
+printf("%d, ", diagonal1);
 printf("%d\n", diagonal2);
 }
 
