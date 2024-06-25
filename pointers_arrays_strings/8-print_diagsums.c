@@ -12,7 +12,7 @@
 void print_diagsums(int *a, int size)
 {
   int i, j;
-  int diagonal1 = 0, diagnoal2 = 0;
+  int diagonal1 = 0, diagonal2 = 0;
   for (i = 0; i <= size; i++)
     for (j = 0; j <= size; j++)
       {
