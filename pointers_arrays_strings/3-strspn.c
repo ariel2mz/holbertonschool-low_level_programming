@@ -14,18 +14,17 @@
 unsigned int _strspn(char *s, char *accept)
 {
 unsigned int contador = 0;
- char *x;
+char *x;
 
 while (*s != '\0')
 {
 x = accept;
 while (*x != '\0' && *x != *s)
 {
-x++
+x++;
 }
 if (*x == *s)
 contador++;
-
 s++;
 }
 return (contador);
