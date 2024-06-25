@@ -27,8 +27,8 @@ void print_diagsums(int *a, int size)
 	  {
 	    jaux = j * size;
             iaux = i + jaux;
-	  diagonal2 = diagonal2 + a[i][j];
-	]
+	  diagonal2 = diagonal2 + a[iaux];
+	
       }
 }
 
