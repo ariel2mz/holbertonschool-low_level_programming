@@ -32,6 +32,6 @@ void print_diagsums(int *a, int size)
 	  }
       }
   printf("%d, ",diagonal1);
-   printf("%d", diagonal2);
+   printf("%d\n", diagonal2);
 }
 
