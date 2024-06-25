@@ -3,7 +3,7 @@
 /* more headers goes there */
 
 /**
- * _strspn - Entry point
+ * _strpbrk - Entry point
  *
  * @s: aaa
  * @accept: aaa
@@ -12,7 +12,6 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-unsigned int contador = 0;
 char *x;
 
 while (*s != '\0')
