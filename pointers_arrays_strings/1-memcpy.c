@@ -3,7 +3,7 @@
 /* more headers goes there */
 
 /**
- * _strncat - Entry point
+ * _memcpy - Entry point
  *
  * @dest: aaa
  * @src: aaa
