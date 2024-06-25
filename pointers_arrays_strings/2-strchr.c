@@ -12,9 +12,9 @@
  */
 char *_strchr(char *s, char c)
 {
-  while (*s != c && *s != NULL )
+  while (*s != c && s != NULL )
   {
-  s++
+  s++;
   }
   return (s);
 }
