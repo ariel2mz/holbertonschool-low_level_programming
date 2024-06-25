@@ -3,11 +3,10 @@
 /* more headers goes there */
 
 /**
- * _strncpy - Entry point
+ * _strspn - Entry point
  *
- * @dest: aaa
- * @src: aaa
- * @n: aaa
+ * @s: aaa
+ * @accept: aaa
  * Description: 'Escribe un texto'
  * Return: int
  */
@@ -26,10 +25,9 @@ x++;
 if (*x == *s)
 contador++;
 s++;
-
- if (*s > 90 || *s < 65)
-   if (*s < 97 || *s > 122)
-     return (contador);
+if (*s > 90 || *s < 65)
+if (*s < 97 || *s > 122)
+return (contador);
 }
 return (contador);
 }
