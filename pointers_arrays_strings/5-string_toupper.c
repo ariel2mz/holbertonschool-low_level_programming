@@ -12,9 +12,9 @@
 char *string_toupper(char *s)
 {
 char *a = s;
-while(*a != '\0')
+while (*a != '\0')
 {
-if(*a >= 97 && *a <= 122)
+if (*a >= 97 && *a <= 122)
 *a = *a - 32;
 a++;
 }
