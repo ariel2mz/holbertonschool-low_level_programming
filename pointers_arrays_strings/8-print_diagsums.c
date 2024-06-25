@@ -22,12 +22,14 @@ void print_diagsums(int *a, int size)
 	    jaux = j * size;
 	    iaux = i + jaux;
 	    diagonal1 = diagonal1 + a[iaux];
+	    printf("%d", diagonal1);
 	  }
 	if ((j + i - 1) == size)
 	  {
 	    jaux = j * size;
             iaux = i + jaux;
 	  diagonal2 = diagonal2 + a[iaux];
+	  printf("%d", diagonal2);
 	  }
       }
 }
