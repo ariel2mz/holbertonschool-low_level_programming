@@ -13,16 +13,17 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-  unsigned int contador;
+unsigned int contador = 0;
 
-  while (*s != '\0')
-    {
-      while (*accept != '\0' && *accept != *s)
-	{
-	  if (*accept == *s)
-	  contador++;
-	  accept++;
-	}
-      s++
-    }
+while (*s != '\0')
+{
+while (*accept != '\0' && *accept != *s)
+{
+if (*accept == *s)
+contador++;
+accept++;
+}
+s++;
+}
+return (contador);
 }
