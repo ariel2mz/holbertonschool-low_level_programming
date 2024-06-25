@@ -26,6 +26,10 @@ x++;
 if (*x == *s)
 contador++;
 s++;
+
+ if (*s > 90 || *s < 65)
+   if (*s < 97 || *s > 122)
+     return (contador);
 }
-return (5);
+return (contador);
 }
