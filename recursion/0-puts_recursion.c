@@ -3,19 +3,20 @@
 /* more headers goes there */
 
 /**
- * print_diagsums - Entry point
+ * _puts_recursion - Entry point
  *
- * @a: aaa
- * @size: aa
+ * @s: a
  * Description: 'Escribe un texto'
  * Return: int
  */
 void _puts_recursion(char *s)
 {
-  _putchar(*s);
-  s++;
-  if (*s != '\0')
-  _puts_recursion(s);
-  else
-    _putchar('\n');
+if (*s != '\0')
+{
+_putchar(*s);
+s++;
+_puts_recursion(s);
+}
+else
+_putchar('\n');
 }
