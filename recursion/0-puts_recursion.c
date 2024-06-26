@@ -1,4 +1,4 @@
-#include "main.h"
+#Include0;276;0c "main.h"
 #include <stdio.h>
 /* more headers goes there */
 
@@ -16,4 +16,6 @@ void _puts_recursion(char *s)
   s++;
   if (*s != '\0')
   _puts_recursion(s);
+  else
+    _putchar('\n');
 }
