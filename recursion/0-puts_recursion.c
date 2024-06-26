@@ -1,4 +1,4 @@
-#Include0;276;0c "main.h"
+#Include "main.h"
 #include <stdio.h>
 /* more headers goes there */
 
