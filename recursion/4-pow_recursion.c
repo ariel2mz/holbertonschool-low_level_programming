@@ -15,7 +15,7 @@ if (y < 0){
     return (-1);
 }
 if (y == 0){
-    return (x);
+    return (1);
 }
 
 
