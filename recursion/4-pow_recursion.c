@@ -17,5 +17,7 @@ if (y < 0){
 if (y == 0){
     return (x);
 }
-return (x ** x);
+
+
+return (x * _pow_recursion(x, y - 1));
 }
