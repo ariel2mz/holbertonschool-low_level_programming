@@ -3,24 +3,23 @@
 /* more headers goes there */
 
 /**
- * print_diagsums - Entry point
+ * _print_rev_recursion - Entry point
  *
- * @a: aaa
- * @size: aa
+ * @s: aaa
  * Description: 'Escribe un texto'
  * Return: int
  */
 void _print_rev_recursion(char *s)
 {
-  if (*s != '\0')
-    {
-      s++;
-      _print_rev_recursion(s);
-      if (*s != '\0')
-      _putchar(*s);
-      s--;
-      if (*s == '\n')
-	_putchar(*s);
-      s++;
-    }
+if (*s != '\0')
+{
+s++;
+_print_rev_recursion(s);
+if (*s != '\0')
+_putchar(*s);
+s--;
+if (*s == '\n')
+_putchar(*s);
+s++;
+}
 }
