@@ -3,9 +3,10 @@
 /* more headers goes there */
 
 /**
- * _strlen_recursion - Entry point
+ * _pow_recursion - Entry point
  *
- * @s: aaa
+ * @x: aaa
+ * @y: aaa
  * Description: 'Escribe un texto'
  * Return: int
  */
