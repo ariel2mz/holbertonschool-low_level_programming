@@ -3,7 +3,7 @@
 /* more headers goes there */
 
 /**
- * _print_rev_recursion - Entry point
+ * _strlen_recursion - Entry point
  *
  * @s: aaa
  * Description: 'Escribe un texto'
