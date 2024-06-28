@@ -16,7 +16,7 @@ return (0);
 if (n % g == 0)
 return (1);
 else
-return  aux2(n, g - 1);
+return  (aux2(n, g - 1));
 }
 /**
  * _is_prime_number - aa
