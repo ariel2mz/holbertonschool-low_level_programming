@@ -17,9 +17,10 @@ int aux(int n, int g)
   if (n % g == 0)
     return (0);
   else
-    return aux(n, g - 1);
+    aux(n, g - 1);
 }
 int _sqrt_recursion(int n)
-
-    return aux(n, n - 1); 
+  int a;
+a = aux(n, n - 1);
+    return a; 
 }
