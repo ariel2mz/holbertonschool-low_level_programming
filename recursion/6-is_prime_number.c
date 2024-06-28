@@ -14,7 +14,7 @@ int aux(int n, int g)
 {
   if (g == 0)
     return (1);
-  if (n % g == o)
+  if (n % g == 0)
     return (0);
   else
     return aux(n, g - 1);
