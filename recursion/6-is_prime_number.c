@@ -13,9 +13,9 @@
 int aux2(int n, int g)
 {
   if (g == 0)
-    return (1);
-  if (n % g == 0)
     return (0);
+  if (n % g == 0)
+    return (1);
   else
    return  aux2(n, g - 1);
 }
