@@ -20,6 +20,7 @@ int aux2(int n, int g)
    return  aux2(n, g - 1);
 }
 int is_prime_number(int n)
+{
   int a;
 a = aux2(n, n - 1);
 return (a); 
