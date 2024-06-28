@@ -4,7 +4,6 @@
 
 /**
  * aux2 - Entry point
- *
  * @n: aaa
  * @g: aaa
  * Description: 'Escribe un texto'
@@ -19,12 +18,12 @@ return (1);
 else
 return  aux2(n, g - 1);
 }
-/**                                                                                                                                                                                                                                       
- * _is_prime_number - aa                                                                                                                                                                                                                   
- * @n: aaa                                                                                                                                                                                                                               
- * Description: 'Escribe un texto'                                                                                                                                                                                                       
- * Return: int                                                                                                                                                                                                                           
- */
+/**
+ * _is_prime_number - aa
+ * @n: aaa
+ * Description: 'Escribe un texto'
+ * Return: int
+*/
 int is_prime_number(int n)
 {
 int a;
