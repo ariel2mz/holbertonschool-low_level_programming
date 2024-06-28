@@ -19,7 +19,7 @@ else
 return  (aux2(n, g - 1));
 }
 /**
- * is_prime_number - aa
+ * is_prime_number - aadsafas
  * @n: aaa
  * Description: 'Escribe un texto'
  * Return: int
