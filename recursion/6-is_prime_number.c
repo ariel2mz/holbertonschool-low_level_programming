@@ -30,7 +30,7 @@ int is_prime_number(int n)
 int a;
  
 if (n < 0)
-n = -n;
+return (0);
 a = aux2(n, n - 1);
 return (a); 
 }
