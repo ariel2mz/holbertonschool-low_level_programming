@@ -15,7 +15,7 @@ int aux(int n, int g)
   if (g * g == n)
     return (g);
   else
-    return aux(n, g - 1);
+    return aux(n, g + 1);
 }
 int _sqrt_recursion(int n)
 {
