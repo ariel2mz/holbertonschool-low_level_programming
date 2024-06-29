@@ -12,10 +12,10 @@
  */
 int aux(int n, int g)
 {
-  if (g * g == n)
-    return (g);
-  else
-    return aux(n, g + 1);
+if (g * g == n)
+return (g);
+else
+return aux(n, g + 1);
 }
 /**                                                                                                                                                                                                                                       
  * _sqrt_recursion - Entry point                                                                                                                                                                                                                   
@@ -26,13 +26,12 @@ int aux(int n, int g)
  */
 int _sqrt_recursion(int n)
 {
-  if  (n < 0)
-    return (-1);
-  if (n == 0)
-    return (0);
-  if (n == 1)
-    return (1);
-  else
-    return aux(n, 0); 
+if  (n < 0)
+return (-1);
+if (n == 0)
+return (0);
+if (n == 1)
+return (1);
+else
+return aux(n, 0);
 }
-
