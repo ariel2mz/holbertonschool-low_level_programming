@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
  
-        printf("%s ", argv[argc]);        /* Printing the string */
+        printf("%s ", argv[argc - 1]);        /* Printing the string */
 
     
 
