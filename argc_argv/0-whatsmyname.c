@@ -3,18 +3,16 @@
 /* more headers goes there */
 
 /**
- * factorial - Entry point
+ * main - Entry point
  *
- * @n: aaa
+ * @argc: aaa
+ * @argv: aaa
  * Description: 'Escribe un texto'
  * Return: int
  */
 int main(int argc, char *argv[])
 {
- if (argc > 0)
-        printf("%s\n", argv[0]);        /* Printing the string */
-        
-    
-
-    return (0);
+if (argc > 0)
+printf("%s\n", argv[0]);
+return (0);
 }
