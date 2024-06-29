@@ -12,8 +12,8 @@
 int main(int argc, char *argv[])
 {
  if (argc > 0)
-        printf("%s ", argv[0]);        /* Printing the string */
-
+        printf("%s\n", argv[0]);        /* Printing the string */
+        
     
 
     return (0);
