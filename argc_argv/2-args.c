@@ -11,13 +11,13 @@
  */
 
 
-int main(int argc, char *argv[])    /* command line Arguments */
+int main(int argc, char *argv[])
 {
-    int i;
-    for (i = 0;i < argc;i++)
-    {
-        printf("%s ", argv[i]);        /* Printing the string */
-    }
-    printf("\n");
-    return (0);
+int i;
+
+for (i = 0;i < argc;i++)
+{
+printf("%s\n", argv[i]);
+}
+return (0);
 }
