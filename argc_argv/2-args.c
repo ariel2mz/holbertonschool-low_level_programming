@@ -11,7 +11,7 @@
  */
 
 
-void main(int argc, char *argv[])    /* command line Arguments */
+int main(int argc, char *argv[])    /* command line Arguments */
 {
     int i;
     for (i = 0;i < argc;i++)
@@ -19,4 +19,5 @@ void main(int argc, char *argv[])    /* command line Arguments */
         printf("%s ", argv[i]);        /* Printing the string */
     }
     printf("\n");
+    return (0);
 }
