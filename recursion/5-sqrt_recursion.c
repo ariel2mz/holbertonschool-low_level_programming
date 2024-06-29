@@ -17,12 +17,12 @@ return (g);
 else
 return aux(n, g + 1);
 }
-/**                                                                                                                                                                                                                                       
- * _sqrt_recursion - Entry point                                                                                                                                                                                                                   
- *                                                                                                                                                                                                                                        
- * @n: aaa                                                                                                                                                                                                                                                                                                                                                                                                                                                      
- * Description: 'Escribe un texto'                                                                                                                                                                                                     
- * Return: int                                                                                                                                                                                                                            
+/**
+ * _sqrt_recursion - Entry point
+ *
+ * @n: aaa
+ * Description: 'Escribe un texto'
+ * Return: int
  */
 int _sqrt_recursion(int n)
 {
