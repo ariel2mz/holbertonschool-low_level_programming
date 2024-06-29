@@ -11,7 +11,10 @@
  */
 int main(int argc, char *argv[])
 {
-if (argc > 0)
-printf("%d", *argv[0]);
-return (0);
+ int i;
+    for (i = 0;i < argc;i++)
+    {
+        printf("%s ", argv[i]);        /* Printing the string */
+    }
+    printf("\n");
 }
