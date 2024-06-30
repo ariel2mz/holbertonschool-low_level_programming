@@ -20,5 +20,5 @@ return (1);
 result = (*argv[1] * *argv[2]);
 result = result - '0';
 result = result - '0';
-return()
+return(result);
 }
