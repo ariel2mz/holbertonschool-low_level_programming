@@ -18,6 +18,6 @@ int result;
 if (argc != 3)
 return (1);
 result = ((*argv[1] - '0')*(*argv[2] - '0'));
-printf("%d", result);
+printf("%d\n", result);
 return(result);
 }
