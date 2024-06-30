@@ -13,7 +13,12 @@
 
 int main(int argc, char *argv[])
 {
+int result;
+
 if (argc != 3)
 return (1);
-return(argv[1] * argv[2])
+result = (*argv[1] * *argv[2]);
+result = result - '0';
+result = result - '0';
+return()
 }
