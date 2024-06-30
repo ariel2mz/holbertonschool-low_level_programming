@@ -34,8 +34,8 @@ if (!isdigit(argv[i][j]))
 printf("Error\n");
 return (1);
 }
-result = result + atoi(argv[i]);
 }
+result = result + atoi(argv[i]);
 }
 printf("%d", result);
 printf("\n");
