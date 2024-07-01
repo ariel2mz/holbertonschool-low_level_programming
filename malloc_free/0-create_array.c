@@ -3,10 +3,10 @@
 /* more headers goes there */
 
 /**
- * main - Entry point
+ * create_array - Entry point
  *
- * @argc: aaa
- * @argv: aaa
+ * @size: aaa
+ * @c: aaa
  * Description: 'Escribe un texto'
  * Return: int
  */
@@ -16,10 +16,10 @@ char *result;
 unsigned int i;
 
 if (size == 0)
-return NULL;
+return (NULL);
 result = malloc(size);
 if (result == NULL)
-return NULL;
+return (NULL);
 for (i = 0; i < size; i++)
 result[i] = c;
 return (result);
