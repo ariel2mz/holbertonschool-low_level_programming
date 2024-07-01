@@ -18,6 +18,8 @@ unsigned int i;
 if (size == 0)
 return NULL;
 result = malloc(size);
+if (result == NULL)
+return NULL;
 for (i = 0; i < size; i++)
 result[i] = c;
 return (result);
