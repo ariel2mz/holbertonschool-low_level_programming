@@ -22,8 +22,9 @@ if (*str == '\0')
 {
 result = malloc(1);
 return (result);
-} 
-while (*str != '\0'){
+}
+while (*str != '\0')
+{
 i++;
 str++;
 }
