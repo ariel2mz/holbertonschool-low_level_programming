@@ -18,7 +18,10 @@ char *_strdup(char *str)
  char *result;
 
  if (*str == '\0')
-   return(str);
+   {
+     result = malloc(1);
+   return(result);
+   }
  if (str == NULL)
    return NULL; 
  while (*str != '\0'){
