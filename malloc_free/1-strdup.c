@@ -25,6 +25,7 @@ if (result == NULL)
 return (NULL);
 for (x = 0; x < i; x++)
   result[x] = str[x];
- free(str);
+for (x = 0; x < i; x++)
+ free(str[x]);
 return (result);
 }
