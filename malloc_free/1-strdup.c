@@ -17,7 +17,7 @@ char *_strdup(char *str)
  unsigned int x;
  char *result;
 
- if (str = NULL)
+ if (str == NULL)
    return NULL; 
  while (*str != '\0'){
    i++;
