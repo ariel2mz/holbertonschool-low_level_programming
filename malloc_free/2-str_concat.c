@@ -37,7 +37,7 @@ for (x = 0; x < s2l; x++)
 s2--;
 result = malloc(s1l + s2l + 1);
 if (result == NULL)
-return (NULL); 
+return (NULL);
 for (x = 0; x < s1l; x++)
 {
 result[x] = s1[x];
