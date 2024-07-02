@@ -29,5 +29,6 @@ if (result == NULL)
 return (NULL);
 for (x = 0; x < i; x++)
   result[x] = str[x];
+ printf("%s\n", result);
 return (result);
 }
