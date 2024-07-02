@@ -4,10 +4,9 @@
 /* more headers goes there */
 
 /**
- * create_array - Entry point
+ * _strdup - Entry point
  *
- * @size: aaa
- * @c: aaa
+ * @str: aaa
  * Description: 'Escribe un texto'
  * Return: int
  */
