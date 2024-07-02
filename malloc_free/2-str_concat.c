@@ -16,6 +16,10 @@ unsigned int s1l = 0, s2l = 0;
  unsigned int x, i;
 char *result;
 
+ if (s1 == NULL)
+   *s1 == '\0';
+ if (s2 == NULL)
+   *s2 == '\0';
 while (*s1 != '\0')
 {
 s1l++;
@@ -32,19 +36,15 @@ for (x = 0; x < s2l; x++)
 s2--;
 result = malloc(s1l + s2l + 1);
 if (result == NULL)
-return (NULL);
- if (s1 != NULL){ 
+return (NULL); 
 for (x = 0; x < s1l; x++)
   {
     result[x] = s1[x];
   }
- }
- if (s2 != NULL){
  for (i = 0; i < s2l; i++)
    {
    result[x] = s2[i];
    x++;
    }
- }
 return (result);
 }
