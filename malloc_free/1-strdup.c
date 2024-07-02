@@ -27,7 +27,7 @@ if (i == 0)
 return (NULL);
  for (x = 0; x < i; x++){
   result[x] = str[x];
-  printf("%c\n", result[x]);
+  printf("%c\n", str[x]);
  }
  printf("%s\n", result);
 return (result);
