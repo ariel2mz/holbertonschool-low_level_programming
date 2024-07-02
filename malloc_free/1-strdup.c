@@ -23,7 +23,7 @@ char *_strdup(char *str)
    i++;
      str++;
  }
- if (i == 0)
+ if (*str == "")
 return (NULL);
  for (x = 0; x < i; x++)
    str--;
