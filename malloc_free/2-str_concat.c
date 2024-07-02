@@ -4,7 +4,7 @@
 /* more headers goes there */
 
 /**
- * str_concat Entry point
+ * str_concat - Entry point
  *
  * @s1: aaa
  * @s2: aaax
