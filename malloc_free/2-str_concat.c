@@ -17,9 +17,9 @@ unsigned int s1l = 0, s2l = 0;
 char *result;
 
  if (s1 == NULL)
-   *s1 == '\0';
+   *s1 = '\0';
  if (s2 == NULL)
-   *s2 == '\0';
+   *s2 = '\0';
 while (*s1 != '\0')
 {
 s1l++;
