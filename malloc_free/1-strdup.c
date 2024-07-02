@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 /* more headers goes there */
 
 /**
@@ -15,9 +16,10 @@ char *_strdup(char *str)
 char *result;
 unsigned int i;
  unsigned int x;
-if (size == 0)
+
+ i = strlen(str);
+if (i == 0)
 return (NULL);
-i = strlen(str);
 result = malloc(i);
 if (result == NULL)
 return (NULL);
