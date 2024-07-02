@@ -35,12 +35,12 @@ result = malloc(s1l + s2l + 1);
 if (result == NULL)
 return (NULL);
  
-for (x = 0; x < s1; x++)
-x++ 
- for (i = 0; i < s2; i++)
+for (x = 0; x < s1l; x++)
+  x++; 
+ for (i = 0; i < s2l; i++)
    {
    result[x] = s2[i];
-   x++
+   x++;
    }
 return (result);
 }
