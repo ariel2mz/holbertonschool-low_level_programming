@@ -33,15 +33,18 @@ s2--;
 result = malloc(s1l + s2l + 1);
 if (result == NULL)
 return (NULL);
- 
+ if (s1 != NULL){ 
 for (x = 0; x < s1l; x++)
   {
     result[x] = s1[x];
   }
+ }
+ if (s2 != NULL){
  for (i = 0; i < s2l; i++)
    {
    result[x] = s2[i];
    x++;
    }
+ }
 return (result);
 }
