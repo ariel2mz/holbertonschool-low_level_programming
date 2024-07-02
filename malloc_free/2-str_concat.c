@@ -30,8 +30,6 @@ for (x = 0; x < s1l; x++)
 s1--;
 for (x = 0; x < s2l; x++)
 s2--;
- printf("%d %d\n", s1l, s2l);
- printf("%s %s\n", s1, s2);
 result = malloc(s1l + s2l + 1);
 if (result == NULL)
 return (NULL);
