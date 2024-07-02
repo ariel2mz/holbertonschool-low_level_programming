@@ -4,22 +4,23 @@
 /* more headers goes there */
 
 /**
- * _strdup - Entry point
+ * str_concat Entry point
  *
- * @str: aaa
+ * @s1: aaa
+ * @s2: aaax
  * Description: 'Escribe un texto'
  * Return: int
  */
 char *str_concat(char *s1, char *s2)
 {
 unsigned int s1l = 0, s2l = 0;
- unsigned int x, i;
+unsigned int x, i;
 char *result;
 
- if (s1 == NULL)
-   s1 = "";
- if (s2 == NULL)
-   s2 = "";
+if (s1 == NULL)
+s1 = "";
+if (s2 == NULL)
+s2 = "";
 while (*s1 != '\0')
 {
 s1l++;
@@ -38,13 +39,14 @@ result = malloc(s1l + s2l + 1);
 if (result == NULL)
 return (NULL); 
 for (x = 0; x < s1l; x++)
-  {
-    result[x] = s1[x];
-  }
- for (i = 0; i < s2l; i++)
-   {
-   result[x] = s2[i];
-   x++;
-   }
+{
+result[x] = s1[x];
+}
+for (i = 0; i < s2l; i++)
+{
+result[x] = s2[i];
+x++;
+}
 return (result);
 }
+
