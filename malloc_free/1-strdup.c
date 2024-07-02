@@ -21,14 +21,14 @@ char *_strdup(char *str)
    i++;
      str++;
  }
+ printf("%d\n", i);
  result = (char *)malloc((i + 1) * sizeof(char));
 if (i == 0)
 return (NULL);
-result = malloc(i);
-if (result == NULL)
-return (NULL);
-for (x = 0; x < i; x++)
+ for (x = 0; x < i; x++){
   result[x] = str[x];
+  printf("%c\n", result[x];
+ }
  printf("%s\n", result);
 return (result);
 }
