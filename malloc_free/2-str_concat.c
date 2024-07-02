@@ -37,7 +37,9 @@ if (result == NULL)
 return (NULL);
  
 for (x = 0; x < s1l; x++)
-  x++; 
+  {
+    result[x] = s1[x];
+  }
  for (i = 0; i < s2l; i++)
    {
    result[x] = s2[i];
