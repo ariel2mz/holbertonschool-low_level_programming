@@ -13,18 +13,19 @@
  */
 int **alloc_grid(int width, int height)
 {
-  /*  int i, j; */
+  int i, j;
   int area = width * height;
   int **result; 
   
   if (width < 1 || height <  1)
     return NULL;
-  result = malloc(area * sizeof(int));
-  /* if (result == NULL)
-     return NULL;*/
-  printf("%d widht, %d height, %d area\n", width, height, area);
-  /*  for (i = 0; i < height; i++)
+  result = malloc(height * sizeof(* int));
+  for (i = 0; i < height)
+    result[i] = malloc(width * sizeof(int));
+  if (result == NULL)
+     return NULL;
+  for (i = 0; i < height; i++)
     for (j = 0; j < width; j++)
-    result[i][j] = 0; */
+    result[i][j] = 0; 
   return (result);
 }
