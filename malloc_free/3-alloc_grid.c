@@ -23,12 +23,12 @@ int **alloc_grid(int width, int height)
     {
     result[i] = malloc(width * sizeof(int));
     if (result[i] == NULL) {
-            // Free previously allocated memory in case of failure
             for (int j = 0; j < i; j++) {
                 free(result[j]);
             }
             free(result);
-            return NULL;
+	    return NULL;
+    }
     }
   if (result == NULL)
      return NULL;
