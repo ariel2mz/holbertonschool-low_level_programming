@@ -20,8 +20,8 @@ int **alloc_grid(int width, int height)
   if (width < 1 || height <  1)
     return NULL;
   /* result = malloc((area * sizeof(int)) * 2); */
-  if (result == NULL)
-    return NULL;
+  /* if (result == NULL)
+     return NULL;*/
   printf("%d widht, %d height, %d area\n", width, height, area);
   /*  for (i = 0; i < height; i++)
     for (j = 0; j < width; j++)
