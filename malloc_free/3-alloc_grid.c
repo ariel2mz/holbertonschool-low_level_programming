@@ -15,11 +15,11 @@ int **alloc_grid(int width, int height)
 {
   /*  int i, j; */
   int area = width * height;
-  /*  int **result; */
+  int **result; 
   
   if (width < 1 || height <  1)
     return NULL;
-  /* result = malloc((area * sizeof(int)) * 2); */
+  result = malloc(area * sizeof(int));
   /* if (result == NULL)
      return NULL;*/
   printf("%d widht, %d height, %d area\n", width, height, area);
