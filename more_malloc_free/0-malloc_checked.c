@@ -4,10 +4,9 @@
 /* more headers goes there */
 
 /**
- * free_grid - Entry point
+ * malloc_checked - Entry point
  *
- * @grid: aaa
- * @height: aaax
+ * @height: b
  * Description: 'Escribe un texto'
  * Return: int
  */
