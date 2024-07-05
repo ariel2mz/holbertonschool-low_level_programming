@@ -6,7 +6,7 @@
 /**
  * malloc_checked - Entry point
  *
- * @height: b
+ * @b: bsada
  * Description: 'Escribe un texto'
  * Return: int
  */
