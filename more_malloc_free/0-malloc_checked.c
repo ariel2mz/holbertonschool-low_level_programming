@@ -17,6 +17,6 @@ int *p;
 
 p = malloc(b);
 if (p == NULL)
-return (NULL);
+*p = 98;
 return (p);
 }
