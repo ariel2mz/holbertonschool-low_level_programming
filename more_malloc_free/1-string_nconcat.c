@@ -47,5 +47,6 @@ s2 = "";
     result[i] = s2[j];
     i++;
     }
+    result[i] = '\0';
     return (result);
 }
