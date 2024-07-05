@@ -42,7 +42,7 @@ s2 = "";
 
     for (i = 0; i < s1len; i++)
     result[i] = s1[i];
-    for (s1len = 0; s1len < s2len; s1len++)
+    for (s1len = 0; s1len < n; s1len++)
     {
     result[i] = s2[s1len];
     i++;
