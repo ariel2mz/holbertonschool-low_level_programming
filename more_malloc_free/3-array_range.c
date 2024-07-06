@@ -4,10 +4,10 @@
 /* more headers goes there */
 
 /**
- * _calloc - Entry point
+ * array_range - Entry point
  *
- * @nmemb: bsada
- * @size: asdasdasds
+ * @min: bsada
+ * @max: asdasdasds
  * Description: 'Escribe un texto'
  * Return: int
  */
@@ -27,5 +27,4 @@ result[i] = min;
 min++;
 }
 return (result);
-
 }
