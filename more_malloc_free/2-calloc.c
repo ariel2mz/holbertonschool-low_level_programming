@@ -26,7 +26,7 @@
     if (result == NULL)
         return (NULL);
 
-    // Initialize all allocated memory to 0
+    
     for (i = 0; i < total_size; i++)
         result[i] = 0;
 
