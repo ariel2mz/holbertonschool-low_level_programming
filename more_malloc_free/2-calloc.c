@@ -19,7 +19,7 @@ unsigned int i;
 
 if (nmemb == 0 || size == 0)
 return (NULL);
-result = malloc(nmemb * size);
+result = malloc(nmemb * size + 1);
 if (result == NULL)
 return (NULL);
 for (i = 0; i < nmemb; i++)
