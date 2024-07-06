@@ -22,7 +22,10 @@ result = malloc((size + 1) * sizeof(int));
 if (result == NULL)
 return (NULL);
 for (i = 0; i <= size; i++)
-result[i] = 0;
+{
+result[i] = min;
+min++;
+}
 return (result);
 
 }
