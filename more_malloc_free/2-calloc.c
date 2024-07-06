@@ -14,14 +14,21 @@
  */
  void *_calloc(unsigned int nmemb, unsigned int size)
  {
-int *result;
+    char *result;
+    unsigned int total_size;
+    unsigned int i;
 
-if (nmemb == 0 || size == 0)
-return (NULL);
-result = malloc(nmemb * size);
-if (result == NULL)
-return (NULL);
-memset(result, 0, nmemb * size);
+    if (nmemb == 0 || size == 0)
+        return (NULL);
 
-return (result);
+    total_size = nmemb * size;
+    result = malloc(total_size);
+    if (result == NULL)
+        return (NULL);
+
+    // Initialize all allocated memory to 0
+    for (i = 0; i < total_size; i++)
+        result[i] = 0;
+
+    return (result);
  }
