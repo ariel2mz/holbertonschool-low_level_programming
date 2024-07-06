@@ -4,31 +4,26 @@
 /* more headers goes there */
 
 /**
- * string_nconcat - Entry point
+ * _calloc - Entry point
  *
- * @s1: bsada
- * @s2: asdasdasds
- * @n: awpwap
+ * @nmemb: bsada
+ * @size: asdasdasds
  * Description: 'Escribe un texto'
  * Return: int
  */
- void *_calloc(unsigned int nmemb, unsigned int size)
- {
-    char *result;
-    unsigned int total_size;
-    unsigned int i;
+void *_calloc(unsigned int nmemb, unsigned int size)
+{
+char *result;
+unsigned int total_size;
+unsigned int i;
 
-    if (nmemb == 0 || size == 0)
-        return (NULL);
-
-    total_size = nmemb * size;
-    result = malloc(total_size);
-    if (result == NULL)
-        return (NULL);
-
-    
-    for (i = 0; i < total_size; i++)
-        result[i] = 0;
-
-    return (result);
- }
+if (nmemb == 0 || size == 0)
+return (NULL);
+total_size = nmemb * size;
+result = malloc(total_size);
+if (result == NULL)
+return (NULL);
+for (i = 0; i < total_size; i++)
+result[i] = 0;
+return (result);
+}
