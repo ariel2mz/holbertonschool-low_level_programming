@@ -3,41 +3,6 @@
 #include "dog.h"
 #include <string.h>
 
-/* more headers goes there */
-
-/**
- * _strncpy - Entry point
- *
- * @dest: aaa
- * @src: aaa
- * @n: aaa
- * Description: 'Escribe un texto'
- * Return: int
- */
-char *_strncpy(char *dest, char *src, int n)
-{
-int i;
-char *a = dest;
-int l;
-const char *p;
-
-p = src;
-while (*p != '\0')
-p++;
-l = p - src;
-
-
-for (i = 0; i < n; i++)
-{
-if (i > l)
-*a = '\0';
-else
-*a = *src;
-a++;
-src++;
-}
-return (dest);
-}
 
 /* more headers goes there */
 
@@ -59,6 +24,24 @@ while (*p != '\0')
 p++;
 return (p - s);
 }
+/**
+ * _strcpy - Entry point
+ *
+ * @dest: aaa
+ * @src: aa
+ * Description: 'Escribe un texto'
+ * Return: int
+ */
+char *_strcpy(char *dest, char *src)
+{
+int l;
+int i;
+
+l = _strlen(dest);
+for (i = 0; i <= l; i++)
+dest[i] = src[i];
+return (dest);
+}
 
 /* more headers goes there */
 
@@ -75,8 +58,8 @@ dog_t *new_dog = malloc(sizeof(dog_t));
 char *namecopy = malloc(sizeof(_strlen(name)) + 1);
 char *ownercopy = malloc(sizeof(_strlen(owner)) + 1);
 
-_strncpy(namecopy, name);
-_strncpy(ownercopy, owner);
+_strcpy(namecopy, name);
+_strcpy(ownercopy, owner);
 if (new_dog == NULL)
 return (NULL);
 new_dog->name = malloc(sizeof(_strlen(name)) + 1);
