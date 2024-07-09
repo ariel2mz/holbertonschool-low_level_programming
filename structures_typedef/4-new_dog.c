@@ -81,4 +81,7 @@ new_dog->name = name;
 new_dog->age = age;
 new_dog->owner = owner;
 return (new_dog);
+
+free(ownercopy);
+free(namecopy);
 }
