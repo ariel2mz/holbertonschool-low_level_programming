@@ -3,7 +3,26 @@
 #include "dog.h"
 #include <string.h>
 
+/* more headers goes there */
 
+/**
+ * _strlen - Entry point
+ *
+ * @s: aaa
+ * Description: 'Escribe un texto'
+ * Return: void
+ */
+int _strlen(char *s)
+{
+const char *p;
+
+if (s == NULL)
+return (0);
+p = s;
+while (*p != '\0')
+p++;
+return (p - s);
+}
 
 /* more headers goes there */
 
@@ -16,10 +35,24 @@
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-dog_t *new_dog = malloc(sizeof(dog_t));
-
+dog_t new_dog = malloc(sizeof(dog_t));
 if (new_dog == NULL)
 return (NULL);
+new_dog->name = malloc(sizeof(_strlen(name)) + 1);
+if (new_dog->name == NULL)
+{
+free(new_dog);
+return NULL;
+}
+new_dog->owner = malloc(sizeof(_strlen(owner)) + 1);
+if (new_dog->owner == NULL)
+{
+free(new_dog->name);
+free(new_dog);
+return NULL;
+}
+
+
 new_dog->name = name;
 new_dog->age = age;
 new_dog->owner = owner;
