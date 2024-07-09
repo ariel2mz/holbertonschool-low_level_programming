@@ -55,8 +55,8 @@ return (dest);
 dog_t *new_dog(char *name, float age, char *owner)
 {
 dog_t *new_dog = malloc(sizeof(dog_t));
-char *namecopy = malloc(sizeof(_strlen(name)) + 1);
-char *ownercopy = malloc(sizeof(_strlen(owner)) + 1);
+char *namecopy;
+char *ownercopy;
 
 _strcpy(namecopy, name);
 _strcpy(ownercopy, owner);
@@ -82,6 +82,5 @@ new_dog->age = age;
 new_dog->owner = owner;
 return (new_dog);
 
-free(ownercopy);
-free(namecopy);
+
 }
