@@ -5,7 +5,7 @@
 /* more headers go here */
 
 /**
- * new_dog - Create a new dog
+ * free_dog - Create a new dog
  *
  * @d: Name of the dog
  * Description: Creates a new dog structure and initializes its fields
