@@ -72,5 +72,5 @@ return (NULL);
 _strcpy(new_dog->name, name);
 _strcpy(new_dog->owner, owner);
 new_dog->age = age;
-return new_dog;
+return (new_dog);
 }
