@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "function_pointers.h"
+#include <string.h>
+
+/* more headers go here */
+
+/**
+ * _strlen - Calculate the length of a string
+ *
+ * @s: The string to measure
+ * Description: Returns the length of a string
+ * Return: Length of the string
+ */
