@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "dog.h"
+#include <string.h>
 /* more headers go here */
 
 /**
