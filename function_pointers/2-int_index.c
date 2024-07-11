@@ -6,11 +6,11 @@
 /* more headers go here */
 
 /**
- * array_iterator - Calculate the length of a string
+ * int_index - Calculate the length of a string
  *
  * @array: The string to measure
  * @size: aaaaa
- * @action: asdsadsa
+ * @cmp: asdsadsa
  * Description: Returns the length of a string
  * Return: Length of the string
  */
