@@ -9,23 +9,28 @@
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-unsigned int i;
-va_list args;
+    unsigned int i;
+    va_list args;
+    const char *str;
 
-if (separator == NULL)
-separator = "";
-if (n == 0)
-{
-printf("\n");
-return;
-}
-va_start(args, n);
-for (i = 0; i < n; i++)
-{
-if (i + 1 != n)
-printf("%s%s", va_arg(args, char *), separator);
-else
-printf("%s\n", va_arg(args, char *));
-}
-va_end(args);
+    if (separator == NULL)
+        separator = "";
+    if (n == 0)
+    {
+        printf("\n");
+        return;
+    }
+    va_start(args, n);
+    for (i = 0; i < n; i++)
+    {
+         str = va_arg(args, char *);
+        if (str == NULL)
+            str = "(nil)";
+
+        if (i + 1 != n)
+            printf("%s%s", str, separator);
+        else
+            printf("%s\n", str);
+    }
+    va_end(args);
 }
