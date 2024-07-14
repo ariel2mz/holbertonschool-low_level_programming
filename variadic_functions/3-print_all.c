@@ -24,7 +24,8 @@ switch (ptr[i])
                     printf("%d", va_arg(args, int));
                     break;
                 case 'f':
-                    printf("%f", va_arg(args, float));
+                    f = (float)va_arg(args, double);
+                    printf("%f", f);
                     break;
                 case 's':
                     str = va_arg(args, char *);
@@ -33,7 +34,7 @@ switch (ptr[i])
                     printf("%s", str);
                     break;
 }
- if (ptr[i + 1] != NULL)
+ if (ptr[i + 1])
  {
     aux = ptr[i];
     if (aux == 'c' || aux == 'i' || aux == 'f' || aux ==  's')
