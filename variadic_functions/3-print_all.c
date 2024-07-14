@@ -8,6 +8,8 @@ char * str;
 char aux;
 int i = 0;
 const char *ptr = format;
+char c;
+float f;
 
 va_start(args, format);
 while (ptr[i])
@@ -15,8 +17,8 @@ while (ptr[i])
 switch (ptr[i])
             {
                 case 'c':
-                    
-                    printf("%c", va_arg(args, char));
+                    c = va_arg(args, int);
+                    printf("%c", c);
                     break;
                 case 'i':
                     printf("%d", va_arg(args, int));
