@@ -12,6 +12,8 @@ char c;
 float f;
 
 va_start(args, format);
+ while (format && format[i]) /* chatgpt dice q esto chequea si es nul*/
+ {
 while (ptr[i])
         {
 switch (ptr[i])
@@ -42,4 +44,5 @@ switch (ptr[i])
  i++;
         }
         printf("\n");
+}
 }
