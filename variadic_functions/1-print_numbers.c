@@ -15,15 +15,17 @@ va_list args;
 if (separator == NULL)
 separator = "";
 if (n == 0)
+{
+printf("\n");
 return;
+}
 va_start(args, n);
 for (i = 0; i < n; i++)
 {
 if (i + 1 != n)
 printf("%d%s", va_arg(args, int), separator);
 else
-printf("%d", va_arg(args, int));
+printf("%d\n", va_arg(args, int));
 }
-printf("\n");
 va_end(args);
 }
