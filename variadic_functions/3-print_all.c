@@ -1,9 +1,15 @@
+#include <stdarg.h>
+#include <stdio.h>
+
 void print_all(const char * const format, ...)
 {
 va_list args;
 char * str;
 char aux;
+int i = 0;
+const char *ptr = format;
 
+va_start(args, format);
 while (ptr[i])
         {
 switch (ptr[i])
