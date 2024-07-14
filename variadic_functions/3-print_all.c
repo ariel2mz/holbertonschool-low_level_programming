@@ -40,12 +40,12 @@ if (str == NULL)
 str = "(nil)";
 printf("%s", str);
 break;
-} 
+}
 aux = ptr[i];
 if ((ptr[i + 1]) && (aux == 'c' || aux == 'i' || aux == 'f' || aux ==  's'))
 printf(", ");
 i++;
-}        
+}
 }
 printf("\n");
 }
