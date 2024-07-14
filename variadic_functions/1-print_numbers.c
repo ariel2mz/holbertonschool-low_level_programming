@@ -1,4 +1,5 @@
 #include <stdarg.h>
+#include <stdio.h>
 /**
  * sum_them_all - Sums all its parameters.
  * @n: The number of arguments passed.
@@ -13,10 +14,9 @@ va_list args;
 int sum = 0;
 
 if (n == 0)
-return (0);
+return;
 va_start(args, n);
 for (i = 0; i < n; i++)
 printf("%d%s", va_arg(args, int), separator);
 va_end(args);
-return (sum);
 }
