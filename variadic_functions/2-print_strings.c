@@ -25,7 +25,7 @@ for (i = 0; i < n; i++)
 if (i + 1 != n)
 printf("%s%s", va_arg(args, char *), separator);
 else
-printf("%d\n", va_arg(args, char *));
+printf("%s\n", va_arg(args, char *));
 }
 va_end(args);
 }
