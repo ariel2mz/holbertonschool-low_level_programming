@@ -1,9 +1,9 @@
 #include <stdarg.h>
 #include <stdio.h>
 /**
- * sum_them_all - Sums all its parameters.
+ * print_numbers - Sums all its parameters.
  * @n: The number of arguments passed.
- *
+ * @separator: aaaaaaa.
  * Return: The sum of all parameters.
  * If n is 0, returns 0.
  */
