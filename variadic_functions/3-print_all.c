@@ -41,4 +41,5 @@ switch (ptr[i])
 
  i++;
         }
+        printf("\n");
 }
