@@ -34,12 +34,11 @@ switch (ptr[i])
                     printf("%s", str);
                     break;
 }
- if (ptr[i + 1])
- {
+ 
     aux = ptr[i];
-    if (aux == 'c' || aux == 'i' || aux == 'f' || aux ==  's')
+    if ((ptr[i + 1]) && (aux == 'c' || aux == 'i' || aux == 'f' || aux ==  's'))
     printf(", ");
- }
+
  i++;
         }
 }
