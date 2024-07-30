@@ -5,7 +5,8 @@
 /**
  * add_node - This istructure will be used for hub to call the correct
  * function for each case
- * @h: The data type as a char
+ * @head: The data type as a char
+ * @str: a
  * Return: On success 1.
  * Description: in this structure you will select the best function
  * for each case.
