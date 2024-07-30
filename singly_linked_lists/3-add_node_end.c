@@ -13,7 +13,7 @@ list_t *add_node_end(list_t **head, const char *str)
 {
 unsigned int add = 0;
 list_t *nuevo;
- list_t *temp;
+list_t *temp;
 const  char *aux;
 if (str == NULL)
 return (NULL);
@@ -24,28 +24,28 @@ free(nuevo);
 return (NULL);
 }
 nuevo->str = strdup(str);
-    if (nuevo->str == NULL)
-    {
-        free(nuevo);
-        return (NULL);
-    }
+if (nuevo->str == NULL)
+{
+free(nuevo);
+return (NULL);
+}
 aux = str;
 while (*aux != '\0')
 {
 add++;aux++;
 }
- nuevo->len = add;
-    nuevo->next = NULL;
-    if (*head == NULL)
-        *head = nuevo;
-    else
-    {
-        temp = *head;
-        while (temp->next != NULL)
-        {
-            temp = temp->next;
-        }
-        temp->next = nuevo;
-    }
- return (nuevo);
+nuevo->len = add;
+nuevo->next = NULL;
+if (*head == NULL)
+*head = nuevo;
+else
+{
+temp = *head;
+while (temp->next != NULL)
+{
+temp = temp->next;
+}
+temp->next = nuevo;
+}
+return (nuevo);
 }
