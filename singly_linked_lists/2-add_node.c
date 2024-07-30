@@ -20,7 +20,10 @@ list_t *add_node(list_t **head, const char *str)
       return (NULL);
     }
   nuevo = malloc(sizeof(list_t));
-
+  if (nuevo == NULL){
+    free(nuevo);
+    return (NULL);
+  }
   aux = str;
   while (*aux != '\0')
   {
