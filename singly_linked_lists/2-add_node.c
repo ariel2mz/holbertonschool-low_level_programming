@@ -12,28 +12,28 @@
  */
 list_t *add_node(list_t **head, const char *str)
 {
-  unsigned int add = 0;
-  list_t *nuevo;
-  const  char *aux;
-  if (str == NULL)
-    {
-      return (NULL);
-    }
-  nuevo = malloc(sizeof(list_t));
-  if (nuevo == NULL){
-    free(nuevo);
-    return (NULL);
-  }
-  aux = str;
-  while (*aux != '\0')
-  {
-    add++;
-    aux++;
-  }
-  nuevo->len = add;
-  nuevo->str = strdup(str);
-  nuevo->next = *head;
-  *head = nuevo;
-
-  return (nuevo);
+unsigned int add = 0;
+list_t *nuevo;
+const  char *aux;
+if (str == NULL)
+{
+return (NULL);
 }
+nuevo = malloc(sizeof(list_t));
+if (nuevo == NULL){
+free(nuevo);
+return (NULL);
+}
+aux = str;
+while (*aux != '\0')
+{
+add++;
+aux++;
+}
+nuevo->len = add;
+nuevo->str = strdup(str);
+nuevo->next = *head;
+*head = nuevo;
+return (nuevo);
+}
+
