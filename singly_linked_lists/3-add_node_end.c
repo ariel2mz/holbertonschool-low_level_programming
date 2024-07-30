@@ -32,7 +32,8 @@ return (NULL);
 aux = str;
 while (*aux != '\0')
 {
-add++;aux++;
+add++;
+aux++;
 }
 nuevo->len = add;
 nuevo->next = NULL;
