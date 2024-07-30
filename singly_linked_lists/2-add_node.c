@@ -20,7 +20,8 @@ if (str == NULL)
 return (NULL);
 }
 nuevo = malloc(sizeof(list_t));
-if (nuevo == NULL){
+if (nuevo == NULL)
+{
 free(nuevo);
 return (NULL);
 }
