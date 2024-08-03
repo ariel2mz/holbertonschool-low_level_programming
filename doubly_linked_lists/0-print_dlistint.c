@@ -15,10 +15,7 @@ size_t print_dlistint(const dlistint_t *h)
 size_t contador = 0;
 while (h != NULL)
 {
-if (h->str == NULL)
-printf("[%d] (nil)\n", h->len);
-else
-printf("[%d] %s\n",  h->len, h->str);
+printf("%d\n",  h->n);
 h = h->next;
 contador++;
 }
