@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * print_list - This istructure will be used for hub to call the correct
+ * print_dlistint - This istructure will be used for hub to call the correct
  * function for each case
  * @h: The data type as a char
  * Return: On success 1.
