@@ -5,7 +5,7 @@
 /**
  * add_dnodeint_end - This istructure will be used for hub to call the correct
  * function for each case
- * @h: The data type as a char
+ * @n: The data type as a char
  * @head: aaaaa
  * Return: On success 1.
  * Description: in this structure you will select the best function
@@ -13,7 +13,6 @@
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
-
 dlistint_t *nuevo;
 dlistint_t *temp;
 nuevo = malloc(sizeof(dlistint_t));
